@@ -39,6 +39,7 @@ This project requires the following files:
 | CNN (random embeddings)        | 90.9%         |
 | CNN (fixed GloVe embeddings)   | 91.3%         |
 | DistilBERT (fine-tuned)        | 93.4%         |
+
 **Observations:**
 - Accuracy improves as model progress from traditional bag-of-words approachs to deep learning models.
 - Using pre-trained embeddings (GloVe) slightly improves CNN performance.
