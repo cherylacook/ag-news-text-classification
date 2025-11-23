@@ -4,12 +4,22 @@
 Classify news articles from the AG News Dataset using both traditional feature-based models (TF and TF-IDF with Naive Bayes) and deep learning approaches (CNNs with trainable or pre-trained GloVe embeddings, and fine-tuned DistilBERT). Compare performance across these approaches to assess the impact of model complexity and embedding quality.
 
 ## Structure
-- `train.csv` - Training data for AG News.
-- `test.csv` - Test data for AG News.
-- `glove.6B.100d.txt`
+- `test.csv` - Test set for AG News.
 - `traditional_vs_cnn_text_classification.ipynb` - Traditional models and CNN approaches.
 - `distilbert_text_classification.ipynb` - Fine-tuned DistilBERT.
 - `requirements.txt` - Python dependencies.
+
+## Data and Pre-trained Embeddings
+This project requires the following files:
+- *Included in this repo:*
+  - `test.csv` - Test set for AG News.
+- *To download externally:*
+  - `train.csv` - Full AG News training dataset.
+    - Download from: https://huggingface.co/datasets/cherac/ag_news_classification_data/resolve/main/train.csv 
+  - `glove.6B.100d.txt` - Pre-trained GloVe embeddings.
+    - Download from: https://huggingface.co/datasets/cherac/ag_news_classification_data/resolve/main/glove.6B.100d.txt 
+
+**Instructions:** Place all files in the *same folder as the notebooks* before running them.
 
 ## Methods
 - **Traditional / CNN notebook:**
