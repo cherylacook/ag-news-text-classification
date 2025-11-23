@@ -50,7 +50,7 @@ Python version: 3.10+
 ```bash
 pip install -r requirements.txt
 jupyter notebook
-# Then run traditional_vs_cnn_text_classification.ipynb and distilbert_text_classification.ipynb in the browser
+# Then open traditional_vs_cnn_text_classification.ipynb or distilbert_text_classification.ipynb in the browser, and run the cells in order
 ```
 
 ## Summary
