@@ -32,22 +32,24 @@ This project requires the following files:
   - Fine-tune pretrained DistilBERT with HuggingFace Trainer and evaluate on the test set.
  
 ## Key Results
-- **Test Accuracy:**
-  - *Traditional Models:*
-    - TF: 90% 
-    - TF-IDF: 90.5%
-  - *CNNs:*
-    - Random embeddings: 90.9%
-    - Fixed GloVe embeddings: 91.3%
-  - *Fine-tuned DistilBERT:* 93.4%
-- Test accuracy improves consistently with increasing model complexity and leveraging richer embeddings.
+| Model                          | Test Accuracy |
+|--------------------------------|---------------|
+| TF + Naive Bayes               | 90%           |
+| TF-IDF + Naive Bayes           | 90.5%         |
+| CNN (random embeddings)        | 90.9%         |
+| CNN (fixed GloVe embeddings)   | 91.3%         |
+| DistilBERT (fine-tuned)        | 93.4%         |
+**Observations:**
+- Accuracy improves as model progress from traditional bag-of-words approachs to deep learning models.
+- Using pre-trained embeddings (GloVe) slightly improves CNN performance.
+- Fine-tuned DistilBERT yields the highest test accuracy, highlighting the effectiveness of large-scale pre-trained models for text classification
 
 ## How to Run:
 Python version: 3.10+
 ```bash
 pip install -r requirements.txt
-jupyter notebook notebooks/traditional_vs_cnn_text_classification.ipynb
-jupyter notebook notebooks/distilbert_text_classification.ipynb
+jupyter notebook
+# Then run traditional_vs_cnn_text_classification.ipynb and distilbert_text_classification.ipynb in the browser
 ```
 
 ## Summary
