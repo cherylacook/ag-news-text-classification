@@ -1,6 +1,6 @@
 # AG News Text Classification
 
-**Note**: This project was completed as part of the AIML332 course at Te Herenga Waka — Victoria University of Wellington.
+This project was *completed as part of AIML332* at Te Herenga Waka — Victoria University of Wellington.
 
 ## Objective
 Classify news articles from the AG News Dataset using both traditional feature-based models (TF and TF-IDF with Naive Bayes) and deep learning approaches (CNNs with trainable or pre-trained GloVe embeddings, and fine-tuned DistilBERT). Compare performance across these approaches to assess the impact of model complexity and embedding quality.
