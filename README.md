@@ -52,7 +52,7 @@ Python version: 3.10+
 ```bash
 pip install -r requirements.txt
 jupyter notebook
-# Then open traditional_vs_cnn_text_classification.ipynb or distilbert_text_classification.ipynb in the browser, and run the cells in order
+# Open traditional_vs_cnn_text_classification.ipynb or distilbert_text_classification.ipynb in the browser, and run the cells in order
 ```
 
 ## Summary
